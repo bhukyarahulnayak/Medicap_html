@@ -1,0 +1,44 @@
+{% load static %}
+<html class="login">
+
+<head>
+    <title>login page</title>
+    <link rel="stylesheet" href="loginc.css" type="text/css">
+</head>
+
+<body>
+    <div class="wrapper fadeInDown">
+        <div id="formContent">
+            <!-- Tabs Titles -->
+            <br><br>
+            <a class="underlineHover active" href="login.html"> Sign In </a> &nbsp&nbsp
+
+            <a class="inactive underlineHover">Sign Up </a>
+            <br>
+            <br>
+            <br>
+
+            <!-- Icon -->
+            <div class="fadeIn first">
+                <img src="https://img.icons8.com/ultraviolet/40/000000/user-male.png" />
+            </div>
+
+            <!-- Login Form -->
+            <form>
+                <input type="text" id="username" class="fadeIn second" name="username" placeholder="Username">
+                <input type="text" id="login" class="fadeIn second" name="login" placeholder="Email">
+                <input type="text" id="password" class="fadeIn third" name="login" placeholder="Password">
+                <input type="text" id="confPassword" class="fadeIn third" name="login" placeholder="Confirm Password">
+                <input type="submit" class="fadeIn fourth" value="Log In">
+            </form>
+
+            <!-- Remind Passowrd -->
+            <div id="formFooter">
+                <a class="underlineHover" href="login.html">Have an account?</a>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
